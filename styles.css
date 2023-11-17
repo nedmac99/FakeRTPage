@@ -7,6 +7,11 @@ body{
     background-color: #797979;
 }
 
+h2 {
+    
+    text-align: center;
+  }
+
 img{
     border-bottom-left-radius: 15%;
 }
@@ -47,3 +52,20 @@ margin-top: 10px;
 margin-right: 50px;
 }
 
+
+#about-rt{
+   margin-top: 5%;
+}
+
+#about-rt p{
+    font-size: 18px;
+    color: azure;
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr)  minmax(2rem, 1fr);
+    row-gap: 3rem;
+    
+}
+
+#rt-description{
+   background: black;
+}
