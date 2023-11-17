@@ -60,14 +60,15 @@ margin-right: 50px;
 }
 
 #about-rt p{
-    font-size: 18px;
-    color: azure;
     display: grid;
     grid-template-columns: minmax(2rem, 1fr)  minmax(2rem, 1fr);
     row-gap: 3rem;
-    
+    font-size: 18px;
+    color: azure;
+   
 }
 
 #rt-description{
+    
    background: black;
 }
