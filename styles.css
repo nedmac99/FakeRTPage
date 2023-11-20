@@ -15,6 +15,7 @@ h3 {
 
   #nav-logo{
     border-bottom-left-radius: 15%;
+    height: 98.8%;
 }
 
 
@@ -27,7 +28,7 @@ h3 {
     width: 100%;
     height: 75px;
     background-color: #E82020;
-    border-bottom-left-radius: 15%;
+    border-bottom-left-radius: 12%;
     border-bottom-right-radius: 20px;
 }
 
