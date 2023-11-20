@@ -13,7 +13,7 @@ h3 {
     text-decoration: underline;
   }
 
-img{
+  #nav-logo{
     border-bottom-left-radius: 15%;
     height: 98.8%;
 }
@@ -63,19 +63,31 @@ margin-right: 50px;
 
 
 #rt-description{
-    display: grid;
+    display: flex;
     grid-template-columns: minmax(2rem, 1fr)  minmax(2rem, 1fr);
     row-gap: 3rem;
-    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    background: black;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 2%;
+    width: 94%;
+    justify-content: space-between;
 }
 
 #rt-description p{
     font-size: 19px;
     color: azure;
-    background: black;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
     width: 600px;
-    padding: 2%;
+}
+
+
+#rt-description img{
+    margin-right: 7%;
+    width: 25%;
+    height: 7%;
+    border-radius: 10px;
 }
 
