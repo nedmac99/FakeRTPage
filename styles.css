@@ -5,6 +5,8 @@
 
 body{
     background-color: #797979;
+    width: 100vw;
+    height: 100vh;
 }
 
 h3 {
@@ -12,6 +14,7 @@ h3 {
     text-align: center;
     text-decoration: underline;
   }
+
 
   #nav-logo{
     border-bottom-left-radius: 15%;
