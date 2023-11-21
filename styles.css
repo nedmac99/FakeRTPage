@@ -16,43 +16,6 @@ h3 {
   }
 
 
-  /*Start of attempt to look better on mobile*/
-
-  img{
-    max-width: 100%;
-  }
-
-
-  @media (min-width: 600px) {
-    .column {
-      width: 50%;
-    }
-  }
-
-
-
-  @media screen and (max-width: 600px) {
-    .left, .main, .right {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-  }
-
-
-  @media (min-width: 600px) {
-    body {
-      flex-wrap: nowrap;
-    }
-
-    div {
-      flex-basis: 33%;
-    }
-  }
-
-
-  /*End of attempt to make it look better on mobile*/
-
-
-
   #nav-logo{
     border-bottom-left-radius: 15%;
     height: 98.8%;
