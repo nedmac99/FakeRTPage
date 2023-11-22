@@ -94,3 +94,45 @@ margin-right: 50px;
     border-radius: 10px;
 }
 
+.schedule{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    background: black;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 2%;
+    width: 94%;
+    color: white;
+    font-size: 19px;
+}
+
+.schedule img{
+    margin-left: -9%;
+}
+
+.desc-list{
+    text-align: center;
+}
+
+.sched-desc{
+    margin-bottom: 1%;
+    word-wrap: break-word;
+}
+
+.rt-list{
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+}
+
+.ah-list{
+    width: 200%;
+    list-style-position: inside;
+    text-indent: 5%;
+}
+
+
+
