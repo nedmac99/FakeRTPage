@@ -107,10 +107,13 @@ margin-right: 50px;
     width: 94%;
     color: white;
     font-size: 19px;
+    overflow: hidden;
 }
+
 
 .schedule img{
     margin-left: -9%;
+    object-fit: contain;
 }
 
 .desc-list{
